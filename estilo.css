@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #52e3cb;
+}
+.corpo{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    height: 250px;
+    width: 200px;
+    background-color: #ffa6e7;
+    border: 1px solid black;
+    padding: 40px;
+    border-radius: 10px
+}
+@media (min-width: 700px) {
+    body{
+        background-size: 80vw;
+    }
+}
+#tela{
+    text-align: right;
+    font-size: 16px;
+    background-color: #F5F4F4;
+    color: #3A3B3B;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.tecla{
+    font-size: 25px;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5px;
+}
+#clean{
+    background-color: #52e3cb;
+}
+#dividi{
+    background-color: #52e3cb;
+}
+#menus{
+    background-color: #52e3cb;
+}
+#por{
+    background-color: #52e3cb;
+}
+#par{
+    background-color: #52e3cb;
+}
+#mais{
+    background-color: #e29878;
+}
+#vezes{
+    background-color: #feb6d0e1;
+}
+#igual{
+    background-color: #788888;
+    width: 128px;
+}
